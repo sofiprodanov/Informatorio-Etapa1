@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Inicio</title>
+    <link rel="stylesheet" href="style-maquetacion-web.css">
+    <!--En vez de escribir manualmente lo anterior, pongo el atajo link:css-->
+</head>
+
+<body>
+    <header>
+        <nav class="navegacion">
+            <img src="Imagenes/logo.png" class="img" />
+            <ul class="navegacion__links">
+                <!--list-style none hace que desaparezcan los puntos negros de la lista, y el anterior alinea el texto a la derecha-->
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Acerca de nosotros</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="recursos">
+        <article class="recursos__articulos">
+            <h1 class="recursos__titulo">Cursos del Informatorio por Etapas</h1>
+            <article class="recursos__parrafo recursos__parrafo--izq">
+                <h2>Etapa 1: HTML, CSS y GITHUB</h2>
+                <p>En este curso vas a aprender a crear paginas web desde cero</p>
+                <p>Esta es mi primera Web!</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <!--Lorep ipsum es texto de relleno-->
+                <!--<b> es para poner en negrita (resaltar), <i> pone en letra cursiva, <u> subraya-->
+            </article>
+
+            <article class="recursos__parrafo recursos__parrafo--centro">
+                <h2>Etapa 2: Programacion Web y Base de Datos</h2>
+                <p>En este curso, arenderemos a crear paginas web con Python y base de Datos</p>
+                <p>¡Estamos en etapa 2!</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </article>
+
+            <article class="recursos__parrafo recursos__parrafo--der">
+                <h2>Etapa 3: Especializacion</h2>
+                <p>En este curso nos especializaremos en un lenguaje</p>
+                <p>¡Estamos en la etapa 3!</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </article>
+        </article>
+        <aside class="recursos__adicionales">
+            <h2 class="recursos__titulo">Recursos Adicionales</h2>
+            <ul class="recursos__lista">
+                <li><a href="#">Enlaces útiles</a></li>
+                <li><a href="#">Documentacion</a></li>
+                <li><a href="#">Ejemplos de codigo</a></li>
+            </ul>
+            <!--href= "#" genera un hipervinculo pero no lleva a ningun lado-->
+        </aside>
+    </section>
+
+    <section class="integrantes">
+        <h1 class="recursos__title">Integrantes del Informatorio</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cumque,
+            porro odio mollitia animi asperiores quia. Sapiente dolore praesentium
+            soluta, minima, temporibus doloribus, at possimus animi ipsam
+            necessitatibus deleniti odio.
+        </p>
+        <div class="integrantes__staff">
+            <div class="integrantes__staff--uno">
+                <img src="https://dummyimage.com/150x150/000/fff" alt="" />
+                <p>Integrante N°1</p>
+            </div>
+            <div class="integrantes__staff--dos">
+                <img src="https://dummyimage.com/150x150/000/fff" alt="" />
+                <p>Integrante N°2</p>
+            </div>
+            <div class="integrantes__staff--tres">
+                <img src="https://dummyimage.com/150x150/000/fff" alt="" />
+                <p>Integrante N°3</p>
+            </div>
+            <div class="integrantes__staff--cuatro">
+                <img src="https://dummyimage.com/150x150/000/fff" alt="" />
+                <p>Integrante N°4</p>
+            </div>
+            <div class="integrantes__staff--cinco">
+                <img src="https://dummyimage.com/150x150/000/fff" alt="" />
+                <p>Integrante N°5</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pie">
+        <h4>Datos del Informatorio</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </footer>
+</body>
+
+</html>
