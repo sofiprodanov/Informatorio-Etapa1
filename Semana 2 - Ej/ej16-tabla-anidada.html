@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Anidada</title>
+</head>
+<body>
+    <p><strong>Tabla Anidada</strong></p>
+    <table cellspacing="10" cellpadding="10" border="1">
+        <tr>
+            <td aling="center">Celda tabla principal (Padre)</td>
+            <td align="center">
+                <table cellspacing="2" cellpadding="2" border="1">
+                    <tr>
+                        <td>Tabla Anidada, Celda (1,1)</td>
+                        <td>Tabla Anidada, Celda (1,2)</td>
+                    </tr>
+                    <tr>
+                        <td>Tabla Anidada, Celda (2,1)</td>
+                        <td>Tabla Anidada, Celda (2,2)</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table><br>
+    <p><strong>Otro Modelo de Tabla Anidada</strong></p>
+    <table id="tabla1" border="1">
+        <tr>
+            <th>Titulo 1</th>
+            <th>Titulo 2</th>
+            <th>Titulo 3</th>
+        </tr>
+        <tr>
+            <td id="nested">
+                <table id="tabla2" border="1">
+                    <tr>
+                        <td>Celda 1</td>
+                        <td>Celda 2</td>
+                        <td>Celda 3</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+        </tr>
+        <tr>
+            <td>Celda 4</td>
+            <td>Celda 5</td>
+            <td>Celda 6</td>
+        </tr>
+    </table>
+</body>
+</html>

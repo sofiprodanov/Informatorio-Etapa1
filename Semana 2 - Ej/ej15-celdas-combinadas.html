@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas Combinadas</title>
+</head>
+<body>
+    <p><em>Tablas sin Filas y Columnas Combinadas</em></p>
+    <table border="1">
+        <tr>
+            <th>Animales</th>
+        </tr>
+        <tr>
+            <th>Hipopotamo</th>
+        </tr>
+        <tr>
+            <th>Caballo</th>
+            <td>Yegua</td>
+        </tr>
+        <tr>
+            <td>Semental</td>
+        </tr>
+        <tr>
+            <th>Cocodrilo</th>
+        </tr>
+        <tr>
+            <th>Pollo</th>
+            <td>Gallina</td>
+        </tr>
+        <tr>
+            <td>Gallo</td>
+        </tr>
+    </table><br>
+    <p><em>Tablas con Filas y Columnas Combinadas</em></p>
+    <!--Para extender columnas se usa COLSPAN y para extender filas se usa ROWSPAN-->
+    <table border="1">
+        <tr>
+            <th colspan="2">Animales</th>
+        </tr>
+        <tr>
+            <th colspan="2">Hipopotamo</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Caballo</th>
+            <td>Yegua</td>
+        </tr>
+        <tr>
+            <td>Semental</td>
+        </tr>
+        <tr>
+            <th colspan="2">Cocodrilo</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Pollo</th>
+            <td>Gallina</td>
+        </tr>
+        <tr>
+            <td>Gallo</td>
+        </tr>
+    </table>
+</body>
+</html>

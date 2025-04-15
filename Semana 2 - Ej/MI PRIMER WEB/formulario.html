@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav style="height: 200px; width: 1300px; background-color: lightblue; display: flex;">
+            <!--se controla mejor desde css el estilo, colores, etc-->
+            <img src="Imagenes/logo.png" style="height: 100px; width: 100px;" />
+            <ul style="margin-left: 950px; list-style: none;">
+                <!--list-style none hace que desaparezcan los puntos negros de la lista, y el anterior alinea el texto a la derecha-->
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Acerca de nosotros</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div style="height: 500px; width: 1300px; background-color: beige; margin-top: 20px;">
+            <h1>Formulario de Contacto</h1>
+            <form action="https://paginaweb.com" method="post"></form>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+            <br>
+            <label for="email">Mail: </label>
+            <input type="email" id="email" placeholder="Ingresa tu mail" required>
+            <br>
+            <label for="consulta">Consulta: </label>
+            <textarea name="consulta" id="consutla" rows="4" placeholder="Escribi tu consulta"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <footer style="height: 200px; width: 1300px; background-color: yellow;">
+            <h4>Datos del Informatorio</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis animi illum voluptas, commodi non
+                earum assumenda eos omnis, alias in ab aut aperiam! Amet id ut rerum asperiores odit nostrum.</p>
+        </footer>
+    </header>
+</body>
+
+</html>
